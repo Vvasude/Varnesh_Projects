@@ -1,4 +1,4 @@
-package Solver;
+package sudokuSolverApp;
 
 import java.util.*;
 
