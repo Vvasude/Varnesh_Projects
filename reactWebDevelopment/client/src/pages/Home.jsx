@@ -6,6 +6,8 @@ import { Loader, Card, FormField } from '../components';
 const Home = () => {
     const [loading, setloading] = useState(false);
     const [allPosts, setAllPosts] = useState(null);
+
+    const [searchText, setSearchText] = useState('');
     return (
         <section className="max-w-7xl mx-auto">
             <div>
@@ -23,6 +25,7 @@ const Home = () => {
                     </div>
                 ) : (
                     <>
+
                     </>
                 )}
             </div>
