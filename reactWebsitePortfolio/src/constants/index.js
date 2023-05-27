@@ -15,14 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  kvan,
+  venvae,
   threejs,
+  weather,
+  music,
+  webscraper,
 } from "../assets";
 
 export const navLinks = [
@@ -111,12 +109,12 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Kvan Logistics",
-    icon: starbucks,
+    icon: kvan,
     iconBg: "#383E56",
     date: "May 2021 - August 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Use of REST APi, Firebase and JWT to create a secure sign-up/login landing page for new and existing users.",
+      "Use of REST API, Firebase and JWT to create a secure sign-up/login landing page for new and existing users.",
       "Knowledge of using Google authentication OAuth 2.0",
       
     ],
@@ -124,9 +122,9 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Venvae",
-    icon: tesla,
+    icon: venvae,
     iconBg: "#E6DEDD",
-    date: "May 2022 - August 2022",
+    date: "May 2022 - Current",
     points: [
       "Developing and maintaining web applications using frontend related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -166,7 +164,7 @@ const projects = [
       },
       
     ],
-    image: carrent,
+    image: webscraper,
     source_code_link: "https://github.com/",
   },
   {
@@ -187,7 +185,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: weather,
     source_code_link: "https://github.com/",
   },
   {
@@ -208,7 +206,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: music,
     source_code_link: "https://github.com/",
   },
 ];
