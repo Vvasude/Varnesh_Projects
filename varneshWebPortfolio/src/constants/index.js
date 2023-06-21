@@ -17,6 +17,9 @@ import {
   kvan,
   venvae,
   threejs,
+  weather,
+  webscraper,
+  music
 } from "../assets";
 
 export const navLinks = [
@@ -108,27 +111,26 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer",
-    company_name: "Kvan Logistics",
-    icon: kvan,
+    company_name: "Venvae",
+    icon: venvae,
     iconBg: "#383E56",
-    date: "May 2021 - August 2021",
+    date: "May 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Use of REST API, Firebase and JWT to create a secure sign-up/login landing page for new and existing users.",
-      "Knowledge of using Google authentication OAuth 2.0",
+      "Developed a responsive user-interface (UI/UX), and custom rest API's that filter metric data. Leveraged ReactJs, TypeScript, Node.Js and Express. Averaging more than 200 users per day.",
+      "Collaborated with a UI/UX desging team to enhance and refine exisiting applications.",
+      "Utilized version control systems, including Github, to track and manage code changes; the optimized applications boosted conversion rates by 25%",
+      
     ],
   },
   {
     title: "Frontend Developer",
-    company_name: "Venvae",
-    icon: venvae,
+    company_name: "Kvan Logistics",
+    icon: kvan,
     iconBg: "#E6DEDD",
-    date: "May 2022 - Current",
+    date: "May 2021 - August 2021",
     points: [
-      "Developing and maintaining web applications using frontend related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented a new react component for the customer web application, which improved the average user time on the website by 2-3 minutes.",
+      "Revamped the full website to be more user-friendly. Implemented Material UI components for website to be more aesthetically pleasing, which increased the number of new users by 20%.",
     ],
   },
 
@@ -162,7 +164,7 @@ const projects = [
       },
       
     ],
-    // image: webscraper,
+    image: webscraper,
     source_code_link: "https://github.com/",
   },
   {
@@ -183,7 +185,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: weather,
+    image: weather,
     source_code_link: "https://github.com/",
   },
   {
@@ -204,7 +206,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    // image: music,
+    image: music,
     source_code_link: "https://github.com/",
   },
 ];

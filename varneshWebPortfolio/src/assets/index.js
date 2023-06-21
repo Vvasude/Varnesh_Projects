@@ -23,6 +23,9 @@ import threejs from "./tech/threejs.svg";
 import kvan from "./company/kvan.jpeg";
 import venvae from "./company/venvae.png";
 
+import weather from "./weather.webp";
+import webscraper from "./webscraper.png";
+import music from "./music.jpg";
 
 export {
   logo,
@@ -47,4 +50,7 @@ export {
   threejs,
   kvan,
   venvae,
+  weather,
+  webscraper,
+  music
 };
