@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
         <header className={`fixed w-full bg-transparent z-50 h-auto transition-all ${scrolling ? 'blur-background' : ''} ${mobileMenuOpen ? 'h-24 blur-background' : ''} border-b-2 border-black`}>
             <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
                 <Link href="/" className="text-2xl font-semibold text-gray-800 text-white">
-                    Varnesh's Portfolio
+                    Varnesh&apos;s Portfolio
                 </Link>
                 <div className="hidden md:flex space-x-6 items-center">
                     <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Home' elementId='hero' />
