@@ -12,7 +12,7 @@ const mediaCards = [
         title: 'Heart Attack Prediction App',
         image: '/Images/HeartAttack.jpg',
         description: 'A Python-based machine learning application designed to predict whether a patient is at risk of a heart attack',
-        link: 'https://github.com/Vvasude/Varnesh_Projects'
+        link: 'https://colab.research.google.com/drive/1FYGPRSEGvd0urNlZmRJHx-gq6ANn3IpX?usp=sharing'
     },
     {
         title: 'CTCC Website',
@@ -30,7 +30,7 @@ const mediaCards = [
         title: 'Weather App',
         image: '/Images/Weather.jpg',
         description: 'Built a responsive weather application that provides real-time weather updates, forecasts, and location-based data, offering users a seamless experience with detailed weather insights and interactive features.',
-        link: 'https://github.com/Vvasude/Varnesh_Projects'
+        link: 'varnesh-weatherapp.vercel.app'
     },
 ];
 
