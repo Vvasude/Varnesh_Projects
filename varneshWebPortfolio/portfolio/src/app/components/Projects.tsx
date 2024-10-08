@@ -15,21 +15,21 @@ const mediaCards = [
         link: 'https://github.com/Vvasude/Varnesh_Projects'
     },
     {
-        title: 'Full Stack Spotify Clone',
-        image: '/Images/Music.jpg',
-        description: 'A full-stack CRUD application that simulates the key features and user experience of Spotify, hosted on AWS cloud infrastructure with JWT-based authentication for secure user access.',
-        link: 'https://github.com/Vvasude/Varnesh_Projects'
+        title: 'CTCC Website',
+        image: '/Images/CTCC.png',
+        description: 'Developed a dynamic corporate directory page for the Canadian Tamils\' Chamber of Commerce, enabling clients to easily browse and access member profiles and services, enhancing user engagement and client visibility.',
+        link: 'https://corporate.ctcc.ca/'
     },
     {
         title: 'Canadian Democracy App',
         image: '/Images/Canada.jpg',
         description: 'A capstone project that visualizes Canadian survey data, featuring heatmaps with LeafletJS and interactive charts using the Google Charts API, with data sourced from Harvard University\'s database for comprehensive querying',
-        link: 'https://github.com/Vvasude/Varnesh_Projects'
+        link: 'https://abdelhalemkassara-github-io.vercel.app/'
     },
     {
-        title: 'Course Outline App',
-        image: '/Images/University.jpg',
-        description: 'A full-stack application that allows professors to create and manage course outlines, hosted on GCP with secure user authentication handled by Auth0, and stored data using MongoDB.',
+        title: 'Weather App',
+        image: '/Images/Weather.jpg',
+        description: 'Built a responsive weather application that provides real-time weather updates, forecasts, and location-based data, offering users a seamless experience with detailed weather insights and interactive features.',
         link: 'https://github.com/Vvasude/Varnesh_Projects'
     },
 ];
@@ -72,7 +72,7 @@ export default function Projects() {
                                 target="_blank" // Open link in a new tab
                                 rel="noopener noreferrer" // Security measure
                             >
-                                GitHub
+                                Link
                             </Button>
                         </CardActions>
                     </Card>
