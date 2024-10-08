@@ -30,7 +30,7 @@ const mediaCards = [
         title: 'Weather App',
         image: '/Images/Weather.jpg',
         description: 'Built a responsive weather application that provides real-time weather updates, forecasts, and location-based data, offering users a seamless experience with detailed weather insights and interactive features.',
-        link: 'varnesh-weatherapp.vercel.app'
+        link: 'https://varnesh-weatherapp-f72hm64zm-vvasudes-projects.vercel.app'
     },
 ];
 
