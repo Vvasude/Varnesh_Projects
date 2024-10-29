@@ -1,22 +1,12 @@
 import React from 'react'
 import { gql, useQuery } from '@apollo/client';
 import ClientRow from './ClientRow';
+import { GET_CLIENTS } from '../queries/clientQueries';
+import Spinner from './Spinner';
 
-//create query to fetch clients
-const GET_CLIENTS = gql`
-
-query getClients{
-    clients{
-    id
-    name
-    email
-    phone
-    }
-}
-`
 export default function Clients() {
     const { loading, error, data } = useQuery(GET_CLIENTS)
-    if (loading) return <p>Loading...</p>;
+    if (loading) return <Spinner />;
     if (error) return <p>Soemthing Went Wrong</p>;
     return <>{!loading && !error && (
         <table className='table table-hover mt-3'>
