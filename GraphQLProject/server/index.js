@@ -8,9 +8,9 @@ const cors = require('cors');
 const {graphqlHTTP} = require('express-graphql');
 //bring in schema
 const schema = require('./schema/schema');
-const connectDB = require('./config/db')
+const connectDB = require('./config/db');
 //listen on a port
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5000;
 
 
 

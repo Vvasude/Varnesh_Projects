@@ -71,7 +71,7 @@ const RootQuery = new GraphQLObjectType({
             args: {id: {type: GraphQLID}},
             resolve(parent, args){
                 //loop and find client that matches args passed in
-                return clients.findById(args.id);
+                return Client.findById(args.id);
             }
         }
     }
@@ -102,14 +102,22 @@ const mutation = new GraphQLObjectType({
         },//end of add client
         //deleting a client
         deleteClient: {
-            type: ClientType,
-            args: {
-                id: { type: new GraphQLNonNull(GraphQLID) },
-            },
-        resolve(parent, args) {
-            return Client.findByIdAndDelete(args.id);   
-        }
-    },//end of delete client
+    type: ClientType,
+    args: {
+        id: { type: new GraphQLNonNull(GraphQLID) },
+    },
+    resolve(parent, args) {
+        // First find and delete the projects associated with the client
+        return Project.find({ clientId: args.id }).then((projects) => {
+            const deletePromises = projects.map((project) => project.deleteOne());
+            return Promise.all(deletePromises).then(() => {
+                // Now delete the client
+                return Client.findByIdAndDelete(args.id);
+            });
+        });
+    }
+}
+,//end of delete client
     //add a project will continue from here tomorrow
     addProject:{
         type:ProjectType,
