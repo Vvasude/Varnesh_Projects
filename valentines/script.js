@@ -3,11 +3,11 @@ const maxClicks = 5;
 
 // Array of sad GIF paths - each one will be different
 const sadGifs = [
-    './images/pikachu.gif',
-    './images/charlie_brown.gif',
-    './images/snoopy.gif',
-    './images/sad.gif',
-    './images/patrick.gif'
+    'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmYzcWlibml2cjhpcm44amRud2xtbWVwMjVtcGZkNThiM3JyemhnOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7SF5scGB2AFrgsXP63/giphy.gif',
+    'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnBxdzJyemNmNGs0bDJvcnEyODk4aHZheGo2NHp5ejhwZjViODRrciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Zt6W9aiKkUSZy/giphy.gif',
+    'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGJrZDBvZXFsYWNubm13MDlpMThheHpkM2pycHNmMTRseGNuZm5leiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8boMf1VXVHoJy/giphy.gif',
+    'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXBrenVseHN0NWVtb2pmYXNlcWR2aGxnbWJjajhoZWd0aTVjejdlZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ULKnZ7hW07rlS/giphy.gif',
+    'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHN4NGNyMnhwbTFzdmNreHFjcWZuemxxNTR3N213NXBtMTllN3R0YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H9nnXKNfa5wf6/giphy.gif'
 ];
 
 // Celebratory GIF for when user says yes
