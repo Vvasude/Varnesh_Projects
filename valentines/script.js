@@ -21,6 +21,32 @@ document.getElementById('yesBtn').addEventListener('click', function() {
     const gifImg = document.getElementById('sadGif');
     gifImg.src = celebrationGif;
     gifImg.style.display = 'block';
+
+    // Trigger confetti celebration
+    const duration = 3 * 1000;
+    const end = Date.now() + duration;
+
+    // Create a confetti celebration
+    (function frame() {
+        confetti({
+            particleCount: 7,
+            angle: 60,
+            spread: 55,
+            origin: { x: 0 },
+            colors: ['#ff0000', '#ff69b4', '#ff1493', '#ff69b4', '#ff0000']
+        });
+        confetti({
+            particleCount: 7,
+            angle: 120,
+            spread: 55,
+            origin: { x: 1 },
+            colors: ['#ff0000', '#ff69b4', '#ff1493', '#ff69b4', '#ff0000']
+        });
+
+        if (Date.now() < end) {
+            requestAnimationFrame(frame);
+        }
+    }());
 });
 
 document.getElementById('noBtn').addEventListener('click', function() {
