@@ -10,10 +10,17 @@ const sadGifs = [
     './images/patrick.gif'
 ];
 
+// Celebratory GIF for when user says yes
+const celebrationGif = 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGozOGpnZzk0MzRwYmRoZWM5ZTR4OG0ybHBjOXdubno4cXU2b29jcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKDj5FERANYAak0/giphy.gif';
+
 document.getElementById('yesBtn').addEventListener('click', function() {
     document.getElementById('response').textContent = 'Yay! I love you! 💖';
     document.querySelector('.buttons').style.display = 'none';
-    document.getElementById('sadGif').style.display = 'none';
+    
+    // Show celebration GIF instead of hiding the GIF element
+    const gifImg = document.getElementById('sadGif');
+    gifImg.src = celebrationGif;
+    gifImg.style.display = 'block';
 });
 
 document.getElementById('noBtn').addEventListener('click', function() {
