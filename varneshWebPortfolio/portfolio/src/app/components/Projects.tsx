@@ -18,7 +18,7 @@ const mediaCards = [
         title: 'CTCC Website',
         image: '/Images/CTCC.png',
         description: 'Developed a dynamic corporate directory page for the Canadian Tamils\' Chamber of Commerce, enabling clients to easily browse and access member profiles and services, enhancing user engagement and client visibility.',
-        link: 'https://corporate.ctcc.ca/'
+        link: 'https://www.ctcc.ca/business-directory'
     },
     {
         title: 'Canadian Democracy App',
@@ -27,8 +27,8 @@ const mediaCards = [
         link: 'https://abdelhalemkassara-github-io.vercel.app/'
     },
     {
-        title: 'Weather App',
-        image: '/Images/Weather.jpg',
+        title: 'GraphQL Task Management App',
+        image: '/Images/graphql.webp',
         description: 'Built a responsive weather application that provides real-time weather updates, forecasts, and location-based data, offering users a seamless experience with detailed weather insights and interactive features.',
         link: 'https://varnesh-weatherapp-f72hm64zm-vvasudes-projects.vercel.app'
     },

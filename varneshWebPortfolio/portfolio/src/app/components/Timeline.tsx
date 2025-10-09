@@ -3,8 +3,40 @@ import React from 'react';
 import { useIntersectionObserver } from './ObservationHook';
 
 const experiences = [
+    
+    
     {
         id: 1,
+        role: 'Software Engineer',
+        company: 'PR Coach',
+        date: 'September 2024 - Present',
+        description: (
+            <ul className="list-disc list-inside">
+                <li>Designed and implemented smooth, user-friendly interfaces using Angular, Ionic, TypeScript, HTML, and
+                CSS.</li>
+                <li>Collaborated with a cross-functional Agile team to identify and solve key software issues, making improvements
+                that boosted platform performance throughout the development lifecycle.</li>
+                <li>Enhanced user engagement by 35% by optimizing UI for seamless performance and interactivity.</li>
+                <li>Gained experience in both frontend and backend development, applying best practices for scalability and extensibility in application designs.</li>
+            </ul>
+        ),
+    },
+    {
+        id: 2,
+        role: 'Frontend Engineer',
+        company: 'IClosed',
+        date: 'September 2024 - present',
+        description: (
+            <ul className="list-disc list-inside">
+                <li>Developed a startup companies website using JavaScript, React, and Next.js, creating responsive pages for Law Clerks and Clients.</li>
+                <li>Utilized GitHub for version control in a cross-functional Agile team to manage code.</li>
+                <li>User Jira to track progress and issues.</li>
+            </ul>
+        ),
+    },
+
+    {
+        id: 3,
         role: 'Frontend Developer',
         company: 'Canadian Tamil\'s Chamber of Commerce',
         date: 'June 2024 - September 2024',
@@ -18,7 +50,7 @@ const experiences = [
         ),
     },
     {
-        id: 2,
+        id: 4,
         role: 'Freelance Developer',
         company: 'Venvae',
         date: 'May 2021 - August 2023',
