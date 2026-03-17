@@ -9,7 +9,7 @@ const experiences = [
         id: 1,
         role: 'Software Engineer',
         company: 'PR Coach',
-        date: 'September 2024 - Present',
+        date: '2024 - Present',
         description: (
             <ul className="list-disc list-inside">
                 <li>Designed and implemented smooth, user-friendly interfaces using Angular, Ionic, TypeScript, HTML, and
@@ -25,7 +25,7 @@ const experiences = [
         id: 2,
         role: 'Frontend Engineer',
         company: 'IClosed',
-        date: 'September 2024 - present',
+        date: '2023 - 2024',
         description: (
             <ul className="list-disc list-inside">
                 <li>Developed a startup company's website using JavaScript, React, and Next.js, creating responsive pages for Law Clerks and Clients.</li>
@@ -39,7 +39,6 @@ const experiences = [
         id: 3,
         role: 'Frontend Developer',
         company: 'Canadian Tamil\'s Chamber of Commerce',
-        date: 'June 2024 - September 2024',
         description: (
             <ul className="list-disc list-inside">
                 <li>Developed a corporate website using TypeScript, React, and Next.js, creating 76 responsive pages for corporate and client use.</li>
@@ -53,7 +52,6 @@ const experiences = [
         id: 4,
         role: 'Freelance Developer',
         company: 'Venvae',
-        date: 'May 2021 - August 2023',
         description: (
             <ul className="list-disc list-inside">
                 <li>Designed and implemented responsive web interfaces that prioritized user experience and maintained visual consistency across various devices.</li>

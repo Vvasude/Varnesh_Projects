@@ -9,10 +9,10 @@ import { Box } from '@mui/material';
 
 const mediaCards = [
     {
-        title: 'Heart Attack Prediction App',
-        image: '/Images/HeartAttack.jpg',
-        description: 'A Python-based machine learning application designed to predict whether a patient is at risk of a heart attack',
-        link: 'https://colab.research.google.com/drive/1FYGPRSEGvd0urNlZmRJHx-gq6ANn3IpX?usp=sharing'
+        title: 'Legal Document Automation System',
+        image: '/Images/law.jpg',
+        description: 'A web application designed to automate the process of creating wills for clients',
+        link: 'https://nava-wilson-pc-wills.vercel.app/'
     },
     {
         title: 'CTCC Website',
@@ -29,8 +29,8 @@ const mediaCards = [
     {
         title: 'GraphQL Task Management App',
         image: '/Images/graphql.webp',
-        description: 'Built a responsive weather application that provides real-time weather updates, forecasts, and location-based data, offering users a seamless experience with detailed weather insights and interactive features.',
-        link: 'https://varnesh-weatherapp-f72hm64zm-vvasudes-projects.vercel.app'
+        description: 'full-stack task management application built with GraphQL, Apollo Client, and React.',
+        link: ''
     },
 ];
 
