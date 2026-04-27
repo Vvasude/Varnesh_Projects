@@ -28,7 +28,7 @@ const experiences = [
         date: '2023 - 2024',
         description: (
             <ul className="list-disc list-inside">
-                <li>Developed a startup company's website using JavaScript, React, and Next.js, creating responsive pages for Law Clerks and Clients.</li>
+                <li>Developed a startup company&apos;s website using JavaScript, React, and Next.js, creating responsive pages for Law Clerks and Clients.</li>
                 <li>Utilized GitHub for version control in a cross-functional Agile team to manage code.</li>
                 <li>Used Jira for tracking progress and issues.</li>
             </ul>
