@@ -15,10 +15,10 @@ const mediaCards = [
         link: 'https://nava-wilson-pc-wills.vercel.app/'
     },
     {
-        title: 'CTCC Website',
-        image: '/Images/CTCC.png',
-        description: 'Developed a dynamic corporate directory page for the Canadian Tamils\' Chamber of Commerce, enabling clients to easily browse and access member profiles and services, enhancing user engagement and client visibility.',
-        link: 'https://www.ctcc.ca/business-directory'
+        title: 'Medical Report AI Examiner',
+        image: '/Images/healthcare.jpg',
+        description: 'Developed a web application that uses AI to examine medical reports and provide a summary of the report.',
+        link: ''
     },
     {
         title: 'Canadian Democracy App',
@@ -27,10 +27,10 @@ const mediaCards = [
         link: 'https://abdelhalemkassara-github-io.vercel.app/'
     },
     {
-        title: 'GraphQL Task Management App',
-        image: '/Images/graphql.webp',
-        description: 'full-stack task management application built with GraphQL, Apollo Client, and React.',
-        link: ''
+        title: 'Anti Money Laundering AI',
+        image: '/Images/BankAI.png',
+        description: 'Regulatory Technology App that assess transactions, flags suspicious activity using AI and creates Audit Trails.',
+        link: 'https://bank-ai-neon.vercel.app/'
     },
 ];
 

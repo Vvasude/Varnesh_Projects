@@ -67,7 +67,7 @@ interface TimelineItemProps {
         id: number;
         role: string;
         company: string;
-        date: string;
+        date?: string;
         description: React.ReactNode;
     };
     side: 'left' | 'right';
@@ -88,7 +88,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ experience, side }) => {
             <div className={`bg-transparent border border-grey rounded-lg p-6`}>
                 <h3 className="text-xl font-semibold mb-2">{experience.role}</h3>
                 <h4 className="text-purple-300 text-purple-300 mb-4">{experience.company}</h4>
-                <p className="text-purple-200 mb-2">{experience.date}</p>
+                {experience.date && <p className="text-purple-200 mb-2">{experience.date}</p>}
                 <div className="text-black text-white">
                     {experience.description}
                 </div>
