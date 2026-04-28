@@ -18,7 +18,7 @@ const mediaCards = [
         title: 'Medical Report AI Examiner',
         image: '/Images/healthcare.jpg',
         description: 'Developed a web application that uses AI to examine medical reports and provide a summary of the report.',
-        link: ''
+        link: 'https://medical-report-ai-explainer-fronten.vercel.app/'
     },
     {
         title: 'Canadian Democracy App',
@@ -28,7 +28,7 @@ const mediaCards = [
     },
     {
         title: 'Anti Money Laundering AI',
-        image: '/Images/BankAI.png',
+        image: '/Images/BankAI.jpg',
         description: 'Regulatory Technology App that assess transactions, flags suspicious activity using AI and creates Audit Trails.',
         link: 'https://bank-ai-neon.vercel.app/'
     },
